@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Checking Documents by ID</title>
+    <style>
+        p {
+          color: navy;
+          text-indent: 30px;
+          text-transform: uppercase;
+        }
+        </style>
+</head>
+
+<body>
+
+<p id="changer">This is not meant to show, it will change with ID</p>
+
+<script>;
+   
+
+
+    var name = prompt("What is your name?");
+    document.getElementById("changer").textContent = name
+    
+    var element = document.createElement('p');
+    element.textContent = name;
+    document.body.appendChild(element);
+    
+
+
+
+
+</script>
+
+</body>
+
+</html>
